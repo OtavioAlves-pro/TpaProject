@@ -1,15 +1,15 @@
-package aulaSwitchCas;
+package aulaSwitchCase;
 
 import java.util.Scanner;
 
-public class prjRodizioCarro {
+public class RodizioCarro {
 	public static void main(String [] args ) {
 	    Scanner ler = new Scanner(System.in);
-		int uDigitoPlaca;
+		int DigitoPlaca;
 
-		uDigitoPlaca = ler.nextInt();
+		DigitoPlaca = ler.nextInt();
 		
-		switch(uDigitoPlaca) {
+		switch(DigitoPlaca) {
 		
 		case 1:
 		case 2:
@@ -50,3 +50,4 @@ public class prjRodizioCarro {
 	}
 
 }
+
