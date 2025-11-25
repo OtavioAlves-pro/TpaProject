@@ -9,7 +9,7 @@ public class Ex1_ImparPar {
 		
 		final int TAM = 20;
 		
-		int a[], b[], i, ib=0;
+		int a[], b[], i, b=0;
 		
 		a = new int[TAM];
 		b = new int[TAM];
@@ -43,3 +43,4 @@ public class Ex1_ImparPar {
 		ler.close();
 	}
 }
+
