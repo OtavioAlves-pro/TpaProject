@@ -2,7 +2,7 @@ package prj15atividadesVetor;
 
 import java.util.Scanner;
 
-public class Ex2_tabuadaA {
+public class Ex2_tabuada {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
@@ -31,3 +31,4 @@ public class Ex2_tabuadaA {
 	}
 
 }
+
