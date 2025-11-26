@@ -1,17 +1,17 @@
 package prjTomadaDecisao;
 import java.util.Scanner;
 
-public class At3Imc {
+public class imc2 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		
-		double p, h, imc;
+		double p, a, imc;
 		
 		System.out.println("Digite seu peso em Kg");
 		p = ler.nextDouble();
 		System.out.println("Digite sua altura em M");
-		h = ler.nextDouble();
+		a = ler.nextDouble();
 		
 		imc = p/(h*h);
 		
@@ -37,3 +37,4 @@ public class At3Imc {
 	}
 
 }
+
