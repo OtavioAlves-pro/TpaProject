@@ -8,19 +8,19 @@ public class MaioreMenor {
     	qtdMaior = 0;
     	
     	System.out.println ("Digite a idade 1:");
-    	 idade1 = ler. nextDouble (); //leia(idade1)
+    	 idade1 = ler. nextDouble (); 
     	 
     	 System.out.println ("Digite a idade 2:");
-    	 idade2 = ler. nextDouble (); //leia(idade2)
+    	 idade2 = ler. nextDouble (); 
     	 
     	 System.out.println ("Digite a idade 3:");
-    	 idade3 = ler. nextDouble (); //leia(idade3)
+    	 idade3 = ler. nextDouble (); 
     	 
     	 System.out.println ("Digite a idade 4:");
-    	 idade4 = ler. nextDouble (); //leia(idade4)
+    	 idade4 = ler. nextDouble (); 
     	 
     	 System.out.println ("Digite a idade 5:");
-    	 idade5 = ler. nextDouble (); //leia(idade5)
+    	 idade5 = ler. nextDouble (); 
 
     	 if(idade1 >= 18) {
     		 qtdMaior = qtdMaior + 1;
