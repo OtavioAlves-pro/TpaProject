@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Elementosfat {
+public class somatorio {
 	
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
@@ -34,3 +34,4 @@ public class Elementosfat {
         }
     }
 }
+
