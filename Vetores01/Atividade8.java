@@ -1,13 +1,17 @@
 
 import java.util.Scanner;
+
 public class fatorialElementos {
+	
 		public static void main(String[] args) {
 	        Scanner ler = new Scanner(System.in);
+			
 	        final int TAM=10;
 	        int a[], b[],  i, j, soma = 0;
+			
 	        a = new int [TAM];
 	        b = new int [TAM];
-	        System.out.println("Digite os 10 elementos inteiros do vetor A:");
+	        System.out.println("Digite 10 elementos inteiros do vetor A:");
 	        for ( i = 0; i < TAM; i++) {
 	            a[i] = ler.nextInt();
 	        }
@@ -19,16 +23,19 @@ public class fatorialElementos {
 	            }
 	            b[i] = soma;
 	        }
+			
 	        System.out.println("Vetor A:");
 	        for ( i = 0; i < TAM; i++) {
 	            System.out.print(a[i] + " ");
 	        }
-	        System.out.println("\n\nVetor B (soma):");
+			
+	        System.out.println("\n\Vetor B (soma):");
 	        for ( i = 0; i < TAM; i++) {
 	            System.out.println("B[" + i + "] = " + b[i]);
 	        }
 	    }
 	}
+
 
 
 
