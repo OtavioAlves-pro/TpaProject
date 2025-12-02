@@ -1,8 +1,8 @@
-package prj15atividadesVetor;
+
 
 import java.util.Scanner;
 
-public class Ex3_Primo {
+public class Primos {
 
 	public static void main(String[] args) {
 		
@@ -25,20 +25,21 @@ public class Ex3_Primo {
 	            d= 0;
 
 	            if (num <= 1) {
-	                System.out.println( num + " Nao é primo");
+	                System.out.println( num + " não é primo");
 	            } 
 	            else {
 
 	                for (teste = 2; teste < num; teste++) {
 	                    if (num % teste == 0) {
-	                        d= d + 1; 
+	                        d = d + 1; 
 	                    }
 	                }
 
 	                if (d == 0) {
-	                    System.out.println( num + " é PRIMO");
+	                    System.out.println( num + " é primo");
 	                } else {
-	                    System.out.println(  num + " Nao é primo");
+						
+	                    System.out.println(  num + " Não é primo");
 	                }
 	            }
 	           
@@ -46,3 +47,4 @@ public class Ex3_Primo {
         }
 	}
 }
+
