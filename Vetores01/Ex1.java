@@ -1,8 +1,7 @@
-package prj15atividadesVetor;
 
 import java.util.Scanner;
 
-public class Ex1_ImparPar {
+public class ImparPar {
 
 	public static void main(String[] args) {
 		Scanner  ler = new Scanner(System.in);
@@ -43,4 +42,5 @@ public class Ex1_ImparPar {
 		ler.close();
 	}
 }
+
 
